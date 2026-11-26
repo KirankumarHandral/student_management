@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Management Application</title>
+    <link rel="stylesheet" href="base.css">
+</head>
+<body>
+    <H1 id="first">Student Management Application</H1>
+    <form class="form" id="studentForm">
+        <label for="name">Name :</label>
+        <input id="name" placeholder="Student name" required><br>
+        <label for="email">Email :</label>
+        <input id="email" type="email" placeholder="Email Id" required><br>
+        <label for="mobile">Phone Number :</label>
+        <input id="mobile" type="tel" placeholder="Phone number" required><br>
+        <label for="course">Course :</label>
+       <label for="course">Select Course:</label>
+            <select id="course">
+                <option value="">Select Course</option>
+                <option value="JavaScript">JavaScript</option>
+                <option value="Python">Python</option>
+                <option value="Java">Java</option>
+                <option value="React">React</option>
+                <option value="C++">C++</option>
+            </select><br><br>
+
+
+        
+        <button type="submit">Submit</button>
+
+    </form>
+    <input
+    type="search"
+    id="search"
+    placeholder="Search student by name..."
+>
+    <h1>Student Records</h1>
+    <div class="table">
+        <table border="1" class="t1">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Phone number</th>
+                <th>Course</th>
+                <th>Actions</th>
+                
+            </tr>
+        </thead>
+
+        <tbody id="studentTable">
+        </tbody>
+    </table>
+
+    </div>
+    <script src="script.js"></script>
+    
+
+
+    
+    
+</body>
+</html>

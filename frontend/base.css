@@ -1,0 +1,112 @@
+*{
+    margin: 0px;
+    padding: 5px;
+}
+#first{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.form{
+    display:flex;
+    flex-direction: column;
+    gap: 5px;
+    margin: 20px auto;
+    max-width: 400px;
+    padding: 30px;
+    border: 1px solid rgb(102, 55, 55)
+    ;
+    border-radius: 5px; 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.form input,form button{
+    font: inherit;
+    padding:8px;
+    border-radius:3px;
+    
+
+}
+
+.form input{
+    border: 1px solid blueviolet;
+}
+.form button{
+    background-color: rgb(208, 103, 103);
+    color: aliceblue;
+    border: none;
+    cursor: pointer
+    ;
+}
+
+.table {
+    max-width: 1000px;
+    margin: 0 auto;
+    overflow-x: auto;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+
+.t1 {
+    width: 100%;
+    border-collapse: collapse;
+    border: none;
+    text-align: left;
+}
+
+
+.t1 thead {
+    background-color: #2c3e50;
+    color: #ffffff;
+}
+
+.t1 th {
+    padding: 15px 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 0.85rem;
+    letter-spacing: 0.5px;
+    border: none;
+}
+
+
+.t1 td {
+    padding: 14px 18px;
+    border-bottom: 1px solid #e0e0e0;
+    border-left: none;
+    border-right: none;
+    font-size: 0.95rem;
+}
+
+
+.t1 tbody tr:nth-child(even) {
+    background-color: #f9fbfb;
+}
+
+.t1 tbody tr:hover {
+    background-color: #eef5f9;
+    transition: background-color 0.2s ease;
+}
+
+
+.t1 td button {
+    padding: 6px 12px;
+    margin-right: 5px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.85rem;
+    background-color: #3498db;
+    color: white;
+}
+
+.t1 td button:hover {
+    opacity: 0.85;
+}
+
+
+
+
+
+
+
